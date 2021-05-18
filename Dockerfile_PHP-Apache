@@ -1,0 +1,9 @@
+FROM php:apache
+
+MAINTAINER Pranav Dhopey
+
+WORKDIR /var/www/html
+
+COPY index.php .
+
+EXPOSE 80
